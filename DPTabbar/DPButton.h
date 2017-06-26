@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DPButton.h
 //  DPTabbar
 //
 //  Created by 赵朋 on 2017/6/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DPButton : UIButton
 
 @end
-

@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		7511C0A31EEEB354008A56E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7511C0A21EEEB354008A56E9 /* main.m */; };
 		7511C0A61EEEB354008A56E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7511C0A51EEEB354008A56E9 /* AppDelegate.m */; };
-		7511C0A91EEEB354008A56E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7511C0A81EEEB354008A56E9 /* ViewController.m */; };
-		7511C0AC1EEEB354008A56E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7511C0AA1EEEB354008A56E9 /* Main.storyboard */; };
 		7511C0AE1EEEB354008A56E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7511C0AD1EEEB354008A56E9 /* Assets.xcassets */; };
 		7511C0B11EEEB354008A56E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7511C0AF1EEEB354008A56E9 /* LaunchScreen.storyboard */; };
 		7511C0BC1EEEB354008A56E9 /* DPTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7511C0BB1EEEB354008A56E9 /* DPTabbarTests.m */; };
 		7511C0C71EEEB354008A56E9 /* DPTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7511C0C61EEEB354008A56E9 /* DPTabbarUITests.m */; };
+		7511C0D61EEEB483008A56E9 /* DPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7511C0D51EEEB483008A56E9 /* DPTabBar.m */; };
+		7511C0D91EEEBE73008A56E9 /* DPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7511C0D81EEEBE73008A56E9 /* DPButton.m */; };
+		751830E21EF0D9E800B0FE17 /* DPTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751830E11EF0D9E800B0FE17 /* DPTabbarController.m */; };
+		7590047A1EF13995002E071E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759004791EF13995002E071E /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +41,6 @@
 		7511C0A21EEEB354008A56E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7511C0A41EEEB354008A56E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7511C0A51EEEB354008A56E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7511C0A71EEEB354008A56E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7511C0A81EEEB354008A56E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7511C0AB1EEEB354008A56E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7511C0AD1EEEB354008A56E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7511C0B01EEEB354008A56E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7511C0B21EEEB354008A56E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,13 @@
 		7511C0C21EEEB354008A56E9 /* DPTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7511C0C61EEEB354008A56E9 /* DPTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPTabbarUITests.m; sourceTree = "<group>"; };
 		7511C0C81EEEB354008A56E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7511C0D41EEEB483008A56E9 /* DPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTabBar.h; sourceTree = "<group>"; };
+		7511C0D51EEEB483008A56E9 /* DPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTabBar.m; sourceTree = "<group>"; };
+		7511C0D71EEEBE73008A56E9 /* DPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPButton.h; sourceTree = "<group>"; };
+		7511C0D81EEEBE73008A56E9 /* DPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPButton.m; sourceTree = "<group>"; };
+		751830E01EF0D9E800B0FE17 /* DPTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTabbarController.h; sourceTree = "<group>"; };
+		751830E11EF0D9E800B0FE17 /* DPTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTabbarController.m; sourceTree = "<group>"; };
+		759004791EF13995002E071E /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +109,13 @@
 			children = (
 				7511C0A41EEEB354008A56E9 /* AppDelegate.h */,
 				7511C0A51EEEB354008A56E9 /* AppDelegate.m */,
-				7511C0A71EEEB354008A56E9 /* ViewController.h */,
-				7511C0A81EEEB354008A56E9 /* ViewController.m */,
-				7511C0AA1EEEB354008A56E9 /* Main.storyboard */,
+				759004791EF13995002E071E /* MainStoryboard.storyboard */,
+				7511C0D41EEEB483008A56E9 /* DPTabBar.h */,
+				7511C0D51EEEB483008A56E9 /* DPTabBar.m */,
+				7511C0D71EEEBE73008A56E9 /* DPButton.h */,
+				7511C0D81EEEBE73008A56E9 /* DPButton.m */,
+				751830E01EF0D9E800B0FE17 /* DPTabbarController.h */,
+				751830E11EF0D9E800B0FE17 /* DPTabbarController.m */,
 				7511C0AD1EEEB354008A56E9 /* Assets.xcassets */,
 				7511C0AF1EEEB354008A56E9 /* LaunchScreen.storyboard */,
 				7511C0B21EEEB354008A56E9 /* Info.plist */,
@@ -246,9 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7590047A1EF13995002E071E /* MainStoryboard.storyboard in Resources */,
 				7511C0B11EEEB354008A56E9 /* LaunchScreen.storyboard in Resources */,
 				7511C0AE1EEEB354008A56E9 /* Assets.xcassets in Resources */,
-				7511C0AC1EEEB354008A56E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7511C0A91EEEB354008A56E9 /* ViewController.m in Sources */,
+				7511C0D61EEEB483008A56E9 /* DPTabBar.m in Sources */,
 				7511C0A61EEEB354008A56E9 /* AppDelegate.m in Sources */,
+				7511C0D91EEEBE73008A56E9 /* DPButton.m in Sources */,
 				7511C0A31EEEB354008A56E9 /* main.m in Sources */,
+				751830E21EF0D9E800B0FE17 /* DPTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +323,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7511C0AA1EEEB354008A56E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7511C0AB1EEEB354008A56E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7511C0AF1EEEB354008A56E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -507,6 +511,7 @@
 				7511C0CD1EEEB354008A56E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7511C0CE1EEEB354008A56E9 /* Build configuration list for PBXNativeTarget "DPTabbarTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				7511C0D01EEEB354008A56E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7511C0D11EEEB354008A56E9 /* Build configuration list for PBXNativeTarget "DPTabbarUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				7511C0D31EEEB354008A56E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
